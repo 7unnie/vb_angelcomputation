@@ -101,6 +101,7 @@ Partial Class Form1
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.TextBox31)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.TextBox10)
@@ -150,7 +151,7 @@ Partial Class Form1
         '
         'TextBox10
         '
-        Me.TextBox10.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox10.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox10.Location = New System.Drawing.Point(116, 429)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(63, 26)
@@ -159,7 +160,7 @@ Partial Class Form1
         '
         'TextBox9
         '
-        Me.TextBox9.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox9.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox9.Location = New System.Drawing.Point(116, 392)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(63, 26)
@@ -168,7 +169,7 @@ Partial Class Form1
         '
         'TextBox8
         '
-        Me.TextBox8.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox8.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox8.Location = New System.Drawing.Point(116, 352)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(63, 26)
@@ -177,7 +178,7 @@ Partial Class Form1
         '
         'TextBox7
         '
-        Me.TextBox7.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox7.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox7.Location = New System.Drawing.Point(116, 308)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(63, 26)
@@ -186,7 +187,7 @@ Partial Class Form1
         '
         'TextBox6
         '
-        Me.TextBox6.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox6.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox6.Location = New System.Drawing.Point(116, 264)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(63, 26)
@@ -195,7 +196,7 @@ Partial Class Form1
         '
         'TextBox5
         '
-        Me.TextBox5.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox5.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox5.Location = New System.Drawing.Point(116, 220)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(63, 26)
@@ -204,7 +205,7 @@ Partial Class Form1
         '
         'TextBox4
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox4.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox4.Location = New System.Drawing.Point(116, 180)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(63, 26)
@@ -213,7 +214,7 @@ Partial Class Form1
         '
         'TextBox3
         '
-        Me.TextBox3.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox3.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox3.Location = New System.Drawing.Point(116, 132)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(63, 26)
@@ -222,7 +223,7 @@ Partial Class Form1
         '
         'TextBox2
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox2.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox2.Location = New System.Drawing.Point(116, 93)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(63, 26)
@@ -231,7 +232,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox1.BackColor = System.Drawing.Color.PaleGreen
         Me.TextBox1.Location = New System.Drawing.Point(116, 56)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(63, 26)
@@ -242,11 +243,11 @@ Partial Class Form1
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label10.Location = New System.Drawing.Point(22, 429)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(59, 20)
+        Me.Label10.Size = New System.Drawing.Size(57, 21)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "EXAM"
         '
@@ -254,11 +255,11 @@ Partial Class Form1
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label9.Location = New System.Drawing.Point(22, 392)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(53, 20)
+        Me.Label9.Size = New System.Drawing.Size(52, 21)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "ACT3"
         '
@@ -266,11 +267,11 @@ Partial Class Form1
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label8.Location = New System.Drawing.Point(22, 352)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(53, 20)
+        Me.Label8.Size = New System.Drawing.Size(52, 21)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "ACT2"
         '
@@ -278,11 +279,11 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label7.Location = New System.Drawing.Point(22, 311)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(53, 20)
+        Me.Label7.Size = New System.Drawing.Size(52, 21)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "ACT1"
         '
@@ -290,11 +291,11 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label6.Location = New System.Drawing.Point(22, 267)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(56, 20)
+        Me.Label6.Size = New System.Drawing.Size(51, 21)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "REC2"
         '
@@ -302,11 +303,11 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label5.Location = New System.Drawing.Point(22, 220)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(56, 20)
+        Me.Label5.Size = New System.Drawing.Size(51, 21)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "REC1"
         '
@@ -314,11 +315,11 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label4.Location = New System.Drawing.Point(22, 180)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 20)
+        Me.Label4.Size = New System.Drawing.Size(42, 21)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "ATT"
         '
@@ -326,11 +327,11 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label3.Location = New System.Drawing.Point(22, 138)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(43, 20)
+        Me.Label3.Size = New System.Drawing.Size(41, 21)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "QZ3"
         '
@@ -338,11 +339,11 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label2.Location = New System.Drawing.Point(22, 99)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(43, 20)
+        Me.Label2.Size = New System.Drawing.Size(41, 21)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "QZ2"
         '
@@ -350,16 +351,17 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label1.Location = New System.Drawing.Point(22, 59)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 20)
+        Me.Label1.Size = New System.Drawing.Size(41, 21)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "QZ1"
         '
         'GroupBox2
         '
+        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox2.Controls.Add(Me.TextBox32)
         Me.GroupBox2.Controls.Add(Me.Button2)
         Me.GroupBox2.Controls.Add(Me.TextBox11)
@@ -501,11 +503,11 @@ Partial Class Form1
         '
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label11.Location = New System.Drawing.Point(22, 429)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(59, 20)
+        Me.Label11.Size = New System.Drawing.Size(57, 21)
         Me.Label11.TabIndex = 9
         Me.Label11.Text = "EXAM"
         '
@@ -513,11 +515,11 @@ Partial Class Form1
         '
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label12.Location = New System.Drawing.Point(22, 392)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(53, 20)
+        Me.Label12.Size = New System.Drawing.Size(52, 21)
         Me.Label12.TabIndex = 8
         Me.Label12.Text = "ACT3"
         '
@@ -525,11 +527,11 @@ Partial Class Form1
         '
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label13.Location = New System.Drawing.Point(22, 352)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(53, 20)
+        Me.Label13.Size = New System.Drawing.Size(52, 21)
         Me.Label13.TabIndex = 7
         Me.Label13.Text = "ACT2"
         '
@@ -537,11 +539,11 @@ Partial Class Form1
         '
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label14.Location = New System.Drawing.Point(22, 311)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(53, 20)
+        Me.Label14.Size = New System.Drawing.Size(52, 21)
         Me.Label14.TabIndex = 6
         Me.Label14.Text = "ACT1"
         '
@@ -549,11 +551,11 @@ Partial Class Form1
         '
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label15.Location = New System.Drawing.Point(22, 267)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(56, 20)
+        Me.Label15.Size = New System.Drawing.Size(51, 21)
         Me.Label15.TabIndex = 5
         Me.Label15.Text = "REC2"
         '
@@ -561,11 +563,11 @@ Partial Class Form1
         '
         Me.Label16.AutoSize = True
         Me.Label16.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label16.Location = New System.Drawing.Point(22, 220)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(56, 20)
+        Me.Label16.Size = New System.Drawing.Size(51, 21)
         Me.Label16.TabIndex = 4
         Me.Label16.Text = "REC1"
         '
@@ -573,11 +575,11 @@ Partial Class Form1
         '
         Me.Label17.AutoSize = True
         Me.Label17.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label17.Location = New System.Drawing.Point(22, 180)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(41, 20)
+        Me.Label17.Size = New System.Drawing.Size(42, 21)
         Me.Label17.TabIndex = 3
         Me.Label17.Text = "ATT"
         '
@@ -585,11 +587,11 @@ Partial Class Form1
         '
         Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label18.Location = New System.Drawing.Point(22, 138)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(43, 20)
+        Me.Label18.Size = New System.Drawing.Size(41, 21)
         Me.Label18.TabIndex = 2
         Me.Label18.Text = "QZ3"
         '
@@ -597,11 +599,11 @@ Partial Class Form1
         '
         Me.Label19.AutoSize = True
         Me.Label19.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label19.Location = New System.Drawing.Point(22, 99)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(43, 20)
+        Me.Label19.Size = New System.Drawing.Size(41, 21)
         Me.Label19.TabIndex = 1
         Me.Label19.Text = "QZ2"
         '
@@ -609,16 +611,17 @@ Partial Class Form1
         '
         Me.Label20.AutoSize = True
         Me.Label20.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label20.Location = New System.Drawing.Point(22, 59)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(43, 20)
+        Me.Label20.Size = New System.Drawing.Size(41, 21)
         Me.Label20.TabIndex = 0
         Me.Label20.Text = "QZ1"
         '
         'GroupBox3
         '
+        Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox3.Controls.Add(Me.TextBox33)
         Me.GroupBox3.Controls.Add(Me.Button3)
         Me.GroupBox3.Controls.Add(Me.TextBox21)
@@ -760,11 +763,11 @@ Partial Class Form1
         '
         Me.Label21.AutoSize = True
         Me.Label21.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label21.Location = New System.Drawing.Point(22, 429)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(59, 20)
+        Me.Label21.Size = New System.Drawing.Size(57, 21)
         Me.Label21.TabIndex = 9
         Me.Label21.Text = "EXAM"
         '
@@ -772,11 +775,11 @@ Partial Class Form1
         '
         Me.Label22.AutoSize = True
         Me.Label22.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label22.Location = New System.Drawing.Point(22, 392)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(53, 20)
+        Me.Label22.Size = New System.Drawing.Size(52, 21)
         Me.Label22.TabIndex = 8
         Me.Label22.Text = "ACT3"
         '
@@ -784,11 +787,11 @@ Partial Class Form1
         '
         Me.Label23.AutoSize = True
         Me.Label23.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label23.Location = New System.Drawing.Point(22, 352)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(53, 20)
+        Me.Label23.Size = New System.Drawing.Size(52, 21)
         Me.Label23.TabIndex = 7
         Me.Label23.Text = "ACT2"
         '
@@ -796,11 +799,11 @@ Partial Class Form1
         '
         Me.Label24.AutoSize = True
         Me.Label24.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label24.Location = New System.Drawing.Point(22, 311)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(53, 20)
+        Me.Label24.Size = New System.Drawing.Size(52, 21)
         Me.Label24.TabIndex = 6
         Me.Label24.Text = "ACT1"
         '
@@ -808,11 +811,11 @@ Partial Class Form1
         '
         Me.Label25.AutoSize = True
         Me.Label25.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label25.Location = New System.Drawing.Point(22, 267)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(56, 20)
+        Me.Label25.Size = New System.Drawing.Size(51, 21)
         Me.Label25.TabIndex = 5
         Me.Label25.Text = "REC2"
         '
@@ -820,11 +823,11 @@ Partial Class Form1
         '
         Me.Label26.AutoSize = True
         Me.Label26.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label26.Location = New System.Drawing.Point(22, 220)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(56, 20)
+        Me.Label26.Size = New System.Drawing.Size(51, 21)
         Me.Label26.TabIndex = 4
         Me.Label26.Text = "REC1"
         '
@@ -832,11 +835,11 @@ Partial Class Form1
         '
         Me.Label27.AutoSize = True
         Me.Label27.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label27.Location = New System.Drawing.Point(22, 180)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(41, 20)
+        Me.Label27.Size = New System.Drawing.Size(42, 21)
         Me.Label27.TabIndex = 3
         Me.Label27.Text = "ATT"
         '
@@ -844,11 +847,11 @@ Partial Class Form1
         '
         Me.Label28.AutoSize = True
         Me.Label28.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label28.Location = New System.Drawing.Point(22, 138)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(43, 20)
+        Me.Label28.Size = New System.Drawing.Size(41, 21)
         Me.Label28.TabIndex = 2
         Me.Label28.Text = "QZ3"
         '
@@ -856,11 +859,11 @@ Partial Class Form1
         '
         Me.Label29.AutoSize = True
         Me.Label29.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label29.Location = New System.Drawing.Point(22, 99)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(43, 20)
+        Me.Label29.Size = New System.Drawing.Size(41, 21)
         Me.Label29.TabIndex = 1
         Me.Label29.Text = "QZ2"
         '
@@ -868,11 +871,11 @@ Partial Class Form1
         '
         Me.Label30.AutoSize = True
         Me.Label30.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Font = New System.Drawing.Font("Yu Gothic", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label30.Location = New System.Drawing.Point(22, 59)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(43, 20)
+        Me.Label30.Size = New System.Drawing.Size(41, 21)
         Me.Label30.TabIndex = 0
         Me.Label30.Text = "QZ1"
         '
@@ -898,17 +901,22 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1155, 595)
+        Me.AutoSize = True
+        Me.BackgroundImage = Global.vb_angelcomputation.My.Resources.Resources._1e23f26349b2829e0c9a40811c1deedb
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1155, 618)
         Me.Controls.Add(Me.TextBox34)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(1177, 674)
+        Me.MinimumSize = New System.Drawing.Size(1177, 674)
         Me.Name = "Form1"
+        Me.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.RightToLeftLayout = True
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "IT ELECT"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

@@ -119,5 +119,38 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-light-academia-playlist-to-help-you-study-light-academia-aesthetic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6097aa908ea9c09b2a22494b214b4274.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l-intro-1651593241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\420176162_925693542596920_4014357584063750478_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1e660f5c-0440-4beb-8ce4-3a338dd97d53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1e23f26349b2829e0c9a40811c1deedb.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
