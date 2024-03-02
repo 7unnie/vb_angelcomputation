@@ -23,28 +23,32 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox31 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.TextBox32 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox11 = New System.Windows.Forms.TextBox()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.TextBox13 = New System.Windows.Forms.TextBox()
@@ -66,6 +70,8 @@ Partial Class Form1
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.TextBox33 = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox21 = New System.Windows.Forms.TextBox()
         Me.TextBox22 = New System.Windows.Forms.TextBox()
         Me.TextBox23 = New System.Windows.Forms.TextBox()
@@ -86,12 +92,6 @@ Partial Class Form1
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.TextBox34 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
@@ -130,113 +130,113 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "PRELIM"
         '
-        'Label1
+        'TextBox31
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label1.Location = New System.Drawing.Point(22, 59)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 20)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "QZ1"
+        Me.TextBox31.BackColor = System.Drawing.Color.LavenderBlush
+        Me.TextBox31.Location = New System.Drawing.Point(116, 508)
+        Me.TextBox31.Name = "TextBox31"
+        Me.TextBox31.Size = New System.Drawing.Size(100, 26)
+        Me.TextBox31.TabIndex = 20
         '
-        'Label2
+        'Button1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label2.Location = New System.Drawing.Point(22, 99)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(43, 20)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "QZ2"
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.Location = New System.Drawing.Point(6, 487)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(92, 64)
+        Me.Button1.TabIndex = 19
+        Me.Button1.Text = "compute prelim"
+        Me.Button1.UseVisualStyleBackColor = False
         '
-        'Label3
+        'TextBox10
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label3.Location = New System.Drawing.Point(22, 138)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(43, 20)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "QZ3"
+        Me.TextBox10.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox10.Location = New System.Drawing.Point(116, 429)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox10.TabIndex = 18
+        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label4
+        'TextBox9
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label4.Location = New System.Drawing.Point(22, 180)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(41, 20)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "ATT"
+        Me.TextBox9.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox9.Location = New System.Drawing.Point(116, 392)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox9.TabIndex = 17
+        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label5
+        'TextBox8
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label5.Location = New System.Drawing.Point(22, 220)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(56, 20)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "REC1"
+        Me.TextBox8.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox8.Location = New System.Drawing.Point(116, 352)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox8.TabIndex = 16
+        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label6
+        'TextBox7
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label6.Location = New System.Drawing.Point(22, 267)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(56, 20)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "REC2"
+        Me.TextBox7.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox7.Location = New System.Drawing.Point(116, 308)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox7.TabIndex = 15
+        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label7
+        'TextBox6
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label7.Location = New System.Drawing.Point(22, 311)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(53, 20)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "ACT1"
+        Me.TextBox6.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox6.Location = New System.Drawing.Point(116, 264)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox6.TabIndex = 14
+        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label8
+        'TextBox5
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label8.Location = New System.Drawing.Point(22, 352)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(53, 20)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "ACT2"
+        Me.TextBox5.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox5.Location = New System.Drawing.Point(116, 220)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox5.TabIndex = 13
+        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label9
+        'TextBox4
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label9.Location = New System.Drawing.Point(22, 392)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(53, 20)
-        Me.Label9.TabIndex = 8
-        Me.Label9.Text = "ACT3"
+        Me.TextBox4.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox4.Location = New System.Drawing.Point(116, 180)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox4.TabIndex = 12
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox3.Location = New System.Drawing.Point(116, 132)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox3.TabIndex = 11
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox2.Location = New System.Drawing.Point(116, 93)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox2.TabIndex = 11
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.LightGreen
+        Me.TextBox1.Location = New System.Drawing.Point(116, 56)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(63, 26)
+        Me.TextBox1.TabIndex = 10
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label10
         '
@@ -250,95 +250,113 @@ Partial Class Form1
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "EXAM"
         '
-        'TextBox1
+        'Label9
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox1.Location = New System.Drawing.Point(116, 56)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox1.TabIndex = 10
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label9.Location = New System.Drawing.Point(22, 392)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(53, 20)
+        Me.Label9.TabIndex = 8
+        Me.Label9.Text = "ACT3"
         '
-        'TextBox2
+        'Label8
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox2.Location = New System.Drawing.Point(116, 93)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox2.TabIndex = 11
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label8.Location = New System.Drawing.Point(22, 352)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(53, 20)
+        Me.Label8.TabIndex = 7
+        Me.Label8.Text = "ACT2"
         '
-        'TextBox3
+        'Label7
         '
-        Me.TextBox3.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox3.Location = New System.Drawing.Point(116, 132)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox3.TabIndex = 11
-        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label7.Location = New System.Drawing.Point(22, 311)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(53, 20)
+        Me.Label7.TabIndex = 6
+        Me.Label7.Text = "ACT1"
         '
-        'TextBox4
+        'Label6
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox4.Location = New System.Drawing.Point(116, 180)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox4.TabIndex = 12
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label6.Location = New System.Drawing.Point(22, 267)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(56, 20)
+        Me.Label6.TabIndex = 5
+        Me.Label6.Text = "REC2"
         '
-        'TextBox5
+        'Label5
         '
-        Me.TextBox5.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox5.Location = New System.Drawing.Point(116, 220)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox5.TabIndex = 13
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label5.Location = New System.Drawing.Point(22, 220)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(56, 20)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "REC1"
         '
-        'TextBox6
+        'Label4
         '
-        Me.TextBox6.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox6.Location = New System.Drawing.Point(116, 264)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox6.TabIndex = 14
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label4.Location = New System.Drawing.Point(22, 180)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(41, 20)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "ATT"
         '
-        'TextBox7
+        'Label3
         '
-        Me.TextBox7.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox7.Location = New System.Drawing.Point(116, 308)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox7.TabIndex = 15
-        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label3.Location = New System.Drawing.Point(22, 138)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(43, 20)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "QZ3"
         '
-        'TextBox8
+        'Label2
         '
-        Me.TextBox8.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox8.Location = New System.Drawing.Point(116, 352)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox8.TabIndex = 16
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label2.Location = New System.Drawing.Point(22, 99)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(43, 20)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "QZ2"
         '
-        'TextBox9
+        'Label1
         '
-        Me.TextBox9.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox9.Location = New System.Drawing.Point(116, 392)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox9.TabIndex = 17
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox10
-        '
-        Me.TextBox10.BackColor = System.Drawing.Color.LightGreen
-        Me.TextBox10.Location = New System.Drawing.Point(116, 429)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(63, 26)
-        Me.TextBox10.TabIndex = 18
-        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label1.Location = New System.Drawing.Point(22, 59)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(43, 20)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "QZ1"
         '
         'GroupBox2
         '
@@ -370,6 +388,24 @@ Partial Class Form1
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "MIDTERM"
+        '
+        'TextBox32
+        '
+        Me.TextBox32.BackColor = System.Drawing.Color.LavenderBlush
+        Me.TextBox32.Location = New System.Drawing.Point(116, 506)
+        Me.TextBox32.Name = "TextBox32"
+        Me.TextBox32.Size = New System.Drawing.Size(100, 26)
+        Me.TextBox32.TabIndex = 21
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button2.Location = New System.Drawing.Point(6, 487)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(92, 64)
+        Me.Button2.TabIndex = 20
+        Me.Button2.Text = "compute midterm"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'TextBox11
         '
@@ -612,6 +648,24 @@ Partial Class Form1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "MIDTERM"
         '
+        'TextBox33
+        '
+        Me.TextBox33.BackColor = System.Drawing.Color.LavenderBlush
+        Me.TextBox33.Location = New System.Drawing.Point(116, 508)
+        Me.TextBox33.Name = "TextBox33"
+        Me.TextBox33.Size = New System.Drawing.Size(100, 26)
+        Me.TextBox33.TabIndex = 21
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button3.Location = New System.Drawing.Point(6, 487)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(92, 64)
+        Me.Button3.TabIndex = 20
+        Me.Button3.Text = "compute finals"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'TextBox21
         '
         Me.TextBox21.BackColor = System.Drawing.Color.LightSkyBlue
@@ -821,60 +875,6 @@ Partial Class Form1
         Me.Label30.Size = New System.Drawing.Size(43, 20)
         Me.Label30.TabIndex = 0
         Me.Label30.Text = "QZ1"
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(6, 487)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(92, 64)
-        Me.Button1.TabIndex = 19
-        Me.Button1.Text = "compute prelim"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'TextBox31
-        '
-        Me.TextBox31.BackColor = System.Drawing.Color.LavenderBlush
-        Me.TextBox31.Location = New System.Drawing.Point(116, 508)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(100, 26)
-        Me.TextBox31.TabIndex = 20
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(6, 487)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(92, 64)
-        Me.Button2.TabIndex = 20
-        Me.Button2.Text = "compute midterm"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.Location = New System.Drawing.Point(6, 487)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(92, 64)
-        Me.Button3.TabIndex = 20
-        Me.Button3.Text = "compute finals"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'TextBox32
-        '
-        Me.TextBox32.BackColor = System.Drawing.Color.LavenderBlush
-        Me.TextBox32.Location = New System.Drawing.Point(116, 506)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(100, 26)
-        Me.TextBox32.TabIndex = 21
-        '
-        'TextBox33
-        '
-        Me.TextBox33.BackColor = System.Drawing.Color.LavenderBlush
-        Me.TextBox33.Location = New System.Drawing.Point(116, 508)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(100, 26)
-        Me.TextBox33.TabIndex = 21
         '
         'Button4
         '
